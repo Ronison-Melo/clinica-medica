@@ -1,2 +1,3 @@
 # clinica-medica
-Projeto usando media queries
+Projeto usando *Media Queries*
+Aqui está meu primeiro projeto usando Media queries.
