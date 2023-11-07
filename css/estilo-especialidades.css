@@ -1,0 +1,91 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    background-color: #f8f7f7;
+}
+
+.limitador{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 6rem;
+}
+
+.opcoes{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 1rem;
+}
+.opcoes ul{
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 3rem;
+
+    list-style: none;
+}
+.opcoes ul li a{
+    border-bottom: 2px solid #00cad1;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+}
+.opcoes ul li a:hover{
+    background-color: #00cad1;
+    border-radius: 0.3rem;
+    color: #FFF;
+}
+
+/* inicio da seção ortopedia */
+
+.container{
+    /* border: 1px solid red; */
+    padding: 1rem;
+    margin-top: 10rem;
+    padding-top: 6rem;
+}
+.pretexto{
+    /* border: 1px solid green; */
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 1rem auto;
+}
+.pretexto h3{
+    margin-bottom: 1rem;
+}
+.infos{
+    /* border: 1px solid violet; */
+    display: flex;
+}
+.infos figure{
+    /* border: 1px solid; */
+    width: 30%;
+}
+.infos figure img{
+    width: 100%;
+    height: 100%;
+}
+.infos table{
+    /* border: 1px solid yellow; */
+    width: 70%;
+   text-align: left;
+}
+table thead{
+    background-color: #00cad1;
+    color: #FFF;
+    font-size: 2rem;
+    height: 4rem;
+}
+table th, td{
+    padding: 1rem;
+    font-weight: bold;
+}
+table tbody tr:nth-of-type(odd){
+    background-color: #cdcdcd;
+}
