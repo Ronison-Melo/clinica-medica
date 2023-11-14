@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.7rem;
+    position: relative;
+    color: #77787c;
+    background-color: #f8f7f7;
+  
+}
+
+header{
+    background-color: #00cad1;
+    height: 5rem;
+    width: 100vw;
+    position: fixed;
+}
+.div-topo{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-topo a{
+    display: flex;
+    align-items: center;
+}
+.div-topo img{
+    width: 15rem;
+    height: 100%;
+}
+.navigation{
+    width: 40%;
+    /* border: 1px solid; */
+}
+.navigation ul{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+}
+.navigation ul li a:hover{
+    background-color: #18a0a5;
+    border-radius: 0.5rem;
+}
+/* FIM DO ESTILO DO TOPO */
+
+/* INICIO DO ESTILO DO BANNER */
+.banner{
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-image: url("../assets/recepcao.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner div{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    height: 100%;
+    padding: 1.5rem;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+.banner div article{
+    /* border: 1px solid; */
+    color: #fff;
+    font-size: 3rem;
+}
+.banner div article h1,.banner div article p{
+    text-shadow: 1px 1px 10px black;
+}
+/* FIM DA SEÇÃO BANNER */
+
+/* INÍCIO DA SEÇÃO SOBRE */
+
+#sobre{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    height: 100vh;
+    margin: auto;
+    padding: 1rem;
+    color: #77787c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#sobre > div{
+    border-bottom: 2px solid gray;
+    height: 25%;
+    width: 70%;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#sobre section{
+    /* border: 1px solid green; */
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+#sobre section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* FIM DA SEÇÃO "SOBRE" */
+
+/* INÍCIO DA SEÇÃO MULTIESPECIALIDADES */
+
+.multiespecialidades{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+
+    margin: auto;
+    padding: 1rem;
+    color: #77787c;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.multiespecialidades > div{
+    /* border: 1px solid; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container-cards{
+    /* border: 1px solid ; */
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.cards{
+    /* border: 1px solid red; */
+    width: 30%;
+    box-shadow: 1px 1px 10px gray;
+
+}
+.cards figure img{
+    width: 100%;
+}
+.multiespecialidades a{
+    background-color: #00cad1;
+    padding: 1rem;
+    width: 20%;
+    margin: auto;
+    border-radius: 0.5rem;
+
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.multiespecialidades a:hover{
+    background-color: #18a0a5;
+}
+/* FIM DA SEÇÃO MULTIESPECIALIDADES */
+
+/* INÍCIO DA SEÇÃO CONTATOS */
+#contato{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    margin: 3rem auto 3rem auto;
+    padding: 1rem;
+
+    text-align: center;
+    color: #77787c;
+    line-height: 4rem;
+}
+#contato span{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+#contato iframe{
+    width: 100%;
+}
+/* FIM DA SEÇÃO CONTATOS */
+
+/* INICIO DO RODAPE */
+
+.rodape{
+    /* border: 1px solid red; */
+    background-color: #0c6e71;
+
+}
+.rodape > div{
+    text-align: center;
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    margin: auto;
+    color: #fff;
+    line-height: 4rem;
+}
