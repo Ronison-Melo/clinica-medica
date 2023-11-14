@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media  screen and (max-width: 425px){
+@media  screen and  (max-width: 425px){
 
     *{
         box-sizing: border-box;
@@ -125,7 +125,10 @@
 
 /* INÍCIO DO ESTILO DE TELAS ATÉ 768px */
 
-@media  screen  and (max-width: 768px){
+@media  screen  and (min-width: 426px) and (max-width: 600px){
+    *{
+        font-size: 1.8rem;
+    }
     body{
         font-size: 2rem;
     }
@@ -159,7 +162,6 @@
     }
     .banner div article{
         /* border: 1px solid red; */
-        font-size: 2.8rem;
         text-align: center;
     }
 
@@ -167,9 +169,12 @@
     #sobre{
         /* border: 1px solid red; */
         height: 45rem;
+        
+        margin: auto;
     }
     #sobre > div{
-        /* border: 1px solid green; */
+        /* border: 1px solid violet; */
+        margin-top: 1rem;
         width: 100%;
         text-align: center;
         height: auto;
@@ -178,6 +183,12 @@
     #sobre section{
         /* border: 1px solid green; */
         width: 100%;
+    }
+    #sobre section ul{
+        /* border: 1px solid red; */
+    }
+    #sobre section ul li{
+        /* border: 1px solid green; */
     }
     #sobre section img{
         display: none;
@@ -218,4 +229,109 @@
         font-weight: bold;
         font-size: 1.9rem;
     } 
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        font-size: 2rem;
+    }
+    header{
+        /* display: none; */
+        background-color: #00cad1;
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .div-topo{
+       display: flex;
+       flex-direction: column;
+    }
+    .navigation{
+        border-top: 2px solid #d6d3d3;
+        width: 100%;
+    }
+
+    .banner{
+        /* border: 1px solid red; */
+        height: 30rem;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+    .banner div{
+        /* border: 1px solid; */
+        height: 100%;
+    }
+    .banner div article{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+
+    #sobre{
+        /* border: 1px solid red; */
+        height: 45rem;
+        
+        margin: auto;
+    }
+    #sobre > div{
+        /* border: 1px solid violet; */
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    #sobre section{
+        /* border: 1px solid green; */
+        width: 100%;
+    }
+    #sobre section ul{
+        /* border: 1px solid red; */
+    }
+    #sobre section ul li{
+        /* border: 1px solid green; */
+    }
+    #sobre section img{
+        display: none;
+    }
+
+    .multiespecialidades > div{
+        /* border: 1px solid green; */
+        width: 90%;
+    }
+    .container-cards{
+        /* border: 1px solid red; */
+        width: 90vw;
+        flex-wrap: wrap;
+        padding: 0;
+        align-items: center;
+        gap: 1rem;
+
+    }
+    .cards{
+        width: 45%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 1rem;
+        margin: 1rem 0;
+    }
+    .multiespecialidades a{
+        width: 20rem;
+        font-size: 2rem;
+    }
+
+     #contato{ 
+        /* border: 1px solid red; */
+        width: 90vw;
+        line-height: 3rem;
+        align-items: center;
+    }
+    #contato span{
+        font-weight: bold;
+        font-size: 1.9rem;
+    } 
+}
 }
