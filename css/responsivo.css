@@ -86,6 +86,10 @@
         color: #fff;
         text-shadow: 1px 1px 4px black;
         font-weight: 600;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
     }
     #sobre section img{
         display: none;
