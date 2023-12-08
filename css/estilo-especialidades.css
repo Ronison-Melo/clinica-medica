@@ -4,9 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+:root{
     font-size: 62.5%;
     background-color: #f8f7f7;
+}
+.background-especialidades{
+    background-image: url("../assets/recepcao2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .limitador{
@@ -20,12 +26,17 @@ html{
     /* border: 1px solid red; */
     text-align: center;
     padding: 1rem;
+    background-color: #FFF;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    
 }
 .opcoes ul{
     /* border: 1px solid ; */
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin: 2rem 0 0.5rem 0;
     gap: 3rem;
 
     list-style: none;
@@ -48,7 +59,14 @@ html{
     /* border: 1px solid red; */
     padding: 1rem;
     margin-top: 10rem;
-    padding-top: 6rem;
+    padding-top: 5rem;
+    background-color: #ffffffef;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .pretexto{
     /* border: 1px solid green; */
@@ -62,6 +80,7 @@ html{
 .infos{
     /* border: 1px solid violet; */
     display: flex;
+    
 }
 .infos figure{
     /* border: 1px solid; */
@@ -89,3 +108,7 @@ table th, td{
 table tbody tr:nth-of-type(odd){
     background-color: #cdcdcd;
 }
+table tbody tr:nth-of-type(even){
+    background-color: #ffffff;
+}
+

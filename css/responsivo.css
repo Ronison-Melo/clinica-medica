@@ -43,10 +43,6 @@
         font-size: 5rem;
     }
 
-    #sobre{
-        /* border: 1px solid red; */
-        
-    }
     #sobre > div{
         /* border: 1px solid green; */
         width: 100%;
@@ -188,12 +184,6 @@
         /* border: 1px solid green; */
         width: 100%;
     }
-    #sobre section ul{
-        /* border: 1px solid red; */
-    }
-    #sobre section ul li{
-        /* border: 1px solid green; */
-    }
     #sobre section img{
         display: none;
     }
@@ -292,12 +282,6 @@
         /* border: 1px solid green; */
         width: 100%;
     }
-    #sobre section ul{
-        /* border: 1px solid red; */
-    }
-    #sobre section ul li{
-        /* border: 1px solid green; */
-    }
     #sobre section img{
         display: none;
     }
@@ -337,5 +321,4 @@
         font-weight: bold;
         font-size: 1.9rem;
     } 
-}
 }

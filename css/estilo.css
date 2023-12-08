@@ -4,7 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-html{
+:root{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
